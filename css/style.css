@@ -6,17 +6,36 @@ body{
     margin:0;
 }
 
-#container{
+#main_header{
+    width:80%;
+    margin:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(116, 42, 131);
+    font-size: 25px;
+    text-align: center;
+}
+
+.header_container{
+    width:80%;
+    margin:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#flower_container{
     width:80%;
     margin:auto;
     height:auto;
 }
 
-#another_container{
+/*#color_container{
     width:80%;
     margin:auto;
     height:auto;
-}
+    position: relative;
+    top: 280px;
+}*/
 
 #navbar_container{
     width:60%;
@@ -42,15 +61,6 @@ body{
 	padding-right:15px;
 }
 
-#header_container{
-    width:80%;
-    margin:auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(116, 42, 131);
-    font-size: 25px;
-    text-align: center;
-}
-
 img{
     float: left;
     width: 30%;
@@ -61,8 +71,8 @@ img{
 
 #flower_text{
     float: right;
-    height: auto;
     width: 70%;
+    height: auto;
     border-color:rgb(116, 42, 131);
     border-width: 3px;
     border-style: dotted;
@@ -73,12 +83,15 @@ img{
 
 #color_text{
     background-image: url("/Users/zhouchun/Desktop/My first website/image/violet_color.png");
-    width:100%;
+    width:80%;
     height:auto;
-    margin: 5%;
+    margin-left:10%;
+    margin-right:10%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     box-sizing:border-box;
+    position: absolute;
+    top: 450px;
 }
 
 #color{

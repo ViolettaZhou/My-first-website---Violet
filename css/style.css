@@ -1,0 +1,88 @@
+body{
+    background-color:rgba(233, 182, 243, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+#container{
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+
+#another_container{
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+
+#navbar_container{
+    width:60%;
+    margin:auto;
+}
+
+#nav_bar ul{
+    background: rgba(50,50,50,0.5);
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:20%;
+	list-style: none;
+}
+
+#nav_bar li{
+    display: inline;
+}
+
+#nav_bar a{
+    color:white;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#header_container{
+    width:80%;
+    margin:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(116, 42, 131);
+    font-size: 25px;
+    text-align: center;
+}
+
+img{
+    float: left;
+    width: 30%;
+    height: auto;
+    padding-right:5%;
+    box-sizing:border-box;
+}
+
+#flower_text{
+    float: right;
+    height: auto;
+    width: 70%;
+    border-color:rgb(116, 42, 131);
+    border-width: 3px;
+    border-style: dotted;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    box-sizing:border-box;
+}
+
+#color_text{
+    background-image: url("/Users/zhouchun/Desktop/My first website/image/violet_color.png");
+    width:100%;
+    height:auto;
+    margin: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    box-sizing:border-box;
+}
+
+#color{
+    width:80%;
+    margin:auto;
+    height:auto; 
+}

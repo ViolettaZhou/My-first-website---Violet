@@ -6,15 +6,6 @@ body{
     margin:0;
 }
 
-#main_header{
-    width:80%;
-    margin:auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(116, 42, 131);
-    font-size: 25px;
-    text-align: center;
-}
-
 .header_container{
     width:80%;
     margin:auto;
@@ -29,6 +20,15 @@ body{
     height:auto;
     /* This is very important!!! else the height will be 0px!!!*/
     overflow:auto; 
+}
+
+#main_header{
+    width:80%;
+    margin:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(116, 42, 131);
+    font-size: 25px;
+    text-align: center;
 }
 
 #navbar_container{
@@ -147,6 +147,14 @@ body{
     text-align: center;
     color: white;
     margin: auto;
+}
+
+#main_footer ul{
+    list-style: none;
+}
+
+#main_footer a{
+    color:white;
 }
 
 #text_reference{

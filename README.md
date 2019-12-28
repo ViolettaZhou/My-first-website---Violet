@@ -1,4 +1,5 @@
-#My first Website - Violet
+#My first Website
+
 Hi everyone, welcome to my github repo :blush:
 
 This is the first website I've made after learning HTML and CSS for about 3 days from watching traversy media's videoes on Youtube (and reading some W3school tutorials)

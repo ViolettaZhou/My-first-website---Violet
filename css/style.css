@@ -23,19 +23,13 @@ body{
     text-align: center;
 }
 
-#flower_container{
+.container{
     width:80%;
     margin:auto;
     height:auto;
+    /* This is very important!!! else the height will be 0px!!!*/
+    overflow:auto; 
 }
-
-/*#color_container{
-    width:80%;
-    margin:auto;
-    height:auto;
-    position: relative;
-    top: 280px;
-}*/
 
 #navbar_container{
     width:60%;
@@ -85,13 +79,13 @@ img{
     background-image: url("/Users/zhouchun/Desktop/My first website/image/violet_color.png");
     width:80%;
     height:auto;
-    margin-left:10%;
-    margin-right:10%;
-    padding-left: 2.5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left:2.5%;
     padding-right: 2.5%;
     box-sizing:border-box;
-    position: absolute;
-    top: 450px;
 }
 
 #color{

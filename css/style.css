@@ -37,7 +37,7 @@ body{
 }
 
 #nav_bar ul{
-    background: rgba(50,50,50,0.5);
+    background: rgba(63, 47, 73, 0.5);
     padding-top:0;
     padding-bottom:0;
     padding-left:20%;
@@ -105,6 +105,8 @@ body{
     float:left;
     width:50%;
     height:auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
     box-sizing:border-box;
 }
 
@@ -112,6 +114,8 @@ body{
     float:right;
     width:50%;
     height:auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     box-sizing:border-box;
@@ -121,6 +125,47 @@ body{
     margin-top: 10%;
     float: right;
     width: 25%;
+    height: auto;
+    box-sizing:border-box;
+}
+
+#main_footer{
+    background-color:  rgba(63, 47, 73, 0.5);
+    margin-top: 5%;
+    overflow:auto;
+}
+
+#reference{
+    float: left;
+    width: 50%;
+    height: auto;
+    box-sizing:border-box;
+}
+
+#reference_header{
+    padding:0;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+#text_reference{
+    float: left;
+    width: 50%;
+    height: auto;
+    box-sizing:border-box;
+}
+
+#image_reference{
+    float: right;
+    width: 50%;
+    height: auto;
+    box-sizing:border-box;
+}
+
+#form{
+    float: right;
+    width: 50%;
     height: auto;
     box-sizing:border-box;
 }

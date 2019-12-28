@@ -55,7 +55,7 @@ body{
 	padding-right:15px;
 }
 
-img{
+#violet_flower_image{
     float: left;
     width: 30%;
     height: auto;
@@ -92,4 +92,35 @@ img{
     width:80%;
     margin:auto;
     height:auto; 
+}
+
+#name_text{
+    float: left;
+    width: 75%;
+    height: auto;
+    box-sizing:border-box;
+}
+
+#name_text_left{
+    float:left;
+    width:50%;
+    height:auto;
+    box-sizing:border-box;
+}
+
+#name_text_right{
+    float:right;
+    width:50%;
+    height:auto;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    box-sizing:border-box;
+}
+
+#violet_girl_image{
+    margin-top: 10%;
+    float: right;
+    width: 25%;
+    height: auto;
+    box-sizing:border-box;
 }

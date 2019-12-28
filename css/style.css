@@ -18,7 +18,7 @@ body{
     width:80%;
     margin:auto;
     height:auto;
-    /* This is very important!!! else the height will be 0px!!!*/
+    /* This is very important!!! Otherwise the height will be 0px!!!*/
     overflow:auto; 
 }
 
@@ -40,8 +40,8 @@ body{
     background: rgba(63, 47, 73, 0.5);
     padding-top:0;
     padding-bottom:0;
-    padding-left:20%;
-	list-style: none;
+    list-style: none;
+    text-align: center;
 }
 
 #nav_bar li{
@@ -51,8 +51,8 @@ body{
 #nav_bar a{
     color:white;
 	text-decoration: none;
-	font-size:18px;
-	padding-right:15px;
+    font-size:18px;
+    padding-right: 5%;
 }
 
 #violet_flower_image{
@@ -76,7 +76,7 @@ body{
 }
 
 #color_text{
-    background-image: url("/Users/zhouchun/Desktop/My first website/image/violet_color.png");
+    background-image: url("../image/violet_color.png");
     width:80%;
     height:auto;
     margin-top: 5%;
@@ -132,6 +132,7 @@ body{
 #main_footer{
     background-color:  rgba(63, 47, 73, 0.5);
     margin-top: 5%;
+    padding-bottom: 2.5%;
     overflow:auto;
 }
 

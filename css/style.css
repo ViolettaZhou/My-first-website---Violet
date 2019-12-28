@@ -55,6 +55,15 @@ body{
     padding-right: 5%;
 }
 
+#nav_bar a:visited{
+    color:rgb(116, 42, 131);
+}
+
+#nav_bar a:hover{
+    color: rgb(116, 42, 131);
+}
+
+
 #violet_flower_image{
     float: left;
     width: 30%;
@@ -157,6 +166,14 @@ body{
 
 #main_footer a{
     color:white;
+}
+
+#main_footer a:hover {
+    color: rgb(116, 42, 131);
+}
+
+#main_footer a:visited {
+    color: rgb(116, 42, 131);
 }
 
 #text_reference{
